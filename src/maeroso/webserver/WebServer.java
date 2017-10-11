@@ -23,7 +23,6 @@ public class WebServer {
             System.out.println("\u001B[1mListening for requests on port \u001B[32m" + port + "\u001B[0m\u001B[1m...");
             while (true) {
                 Socket clientSocket = serverSocket.accept();
-
                 HttpRequest request = new HttpRequest(clientSocket);
 
                 Thread thread = new Thread(request);
