@@ -1,4 +1,4 @@
-# Multithreaded HTTP WebServer
-Trabalho da disciplina de Redes de Computadores
+# Java Multithreaded HTTP WebServer
 
-Feito por Matheus Aeroso - a1660098
+Just a homework assignment for an university class.
+Feel free to use and fork, I don't intend to continue developing it for now.
